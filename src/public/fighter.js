@@ -27,7 +27,7 @@ export default class Fighter
             console.log("time is over!");
             setTimeout(() =>
             {
-                resolve("YOU DIED!");
+                resolve(`${this.name} is died...`);
             }, 500);
         });
     }
